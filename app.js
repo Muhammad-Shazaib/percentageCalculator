@@ -1,6 +1,6 @@
-function CalculatePercentage() {
+function calculatePercentage() {
     let userNumber = document.getElementById('calculatePercentage').value
-    let calculatePercentage = userNumber / 850 * 100;
+    let calculatePercentage = userNumber  / 850 * 100;
     console.log(calculatePercentage)
     if (calculatePercentage >= 80 && calculatePercentage <= 100) {
         alert('You got A+ Congrats')
