@@ -1,23 +1,32 @@
 function calculatePercentage() {
-    let userNumber = document.getElementById('calculatePercentage').value
-    let calculatePercentage = userNumber  / 850 * 100;
-    console.log(calculatePercentage)
-    if (calculatePercentage >= 80 && calculatePercentage <= 100) {
+
+    let userNumber1 = document.getElementById('obtainedMarks').value
+    let userNumber2 = document.getElementById('totalMarks').value
+    let percentage = (userNumber1 / userNumber2) * 100
+
+
+    if (percentage >= 90 && percentage <= 100) {
         alert('You got A+ Congrats')
     }
-    else if (calculatePercentage >= 70 && calculatePercentage <= 80) {
+    else if (percentage >= 80 && percentage <= 90) {
         alert('You got A Congrats')
     }
-    else if (calculatePercentage >= 60 && calculatePercentage <= 70) {
+    else if (percentage >= 70 && percentage <= 80) {
         alert('You got B Congrats')
     }
-    else if (calculatePercentage >= 50 && calculatePercentage <= 60) {
+    else if (percentage >= 60 && percentage <= 70) {
         alert('you got C Congrants')
     }
-    else if (calculatePercentage >= 40 && calculatePercentage <= 50) {
-        alert('Your are Fail')
-    }
-    else {
-        alert("please enter a valid input")
+    else if (percentage >= 50 && percentage <= 60) {
+        alert('you got D Congrants')
+
+    } else if (percentage >= 40 && percentage <= 50) {
+        alert('you got D Congrants')
+        
+    } else if (percentage > 33 && percentage <= 40) {
+        alert('you got E Congrants')
+
+    } else {
+        alert("You are Fail batter the next time")
     }
 } 
