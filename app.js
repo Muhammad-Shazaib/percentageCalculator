@@ -6,19 +6,19 @@ function calculatePercentage() {
 
 
     if (percentage >= 90 && percentage <= 100) {
-        alert('You got A+ Congrats')
+        alert('You got A1 Congrats')
     }
     else if (percentage >= 80 && percentage <= 90) {
-        alert('You got A Congrats')
+        alert('You got A+ Congrats')
     }
     else if (percentage >= 70 && percentage <= 80) {
-        alert('You got B Congrats')
+        alert('You got A Congrats')
     }
     else if (percentage >= 60 && percentage <= 70) {
-        alert('you got C Congrants')
+        alert('you got B Congrants')
     }
     else if (percentage >= 50 && percentage <= 60) {
-        alert('you got D Congrants')
+        alert('you got C Congrants')
 
     } else if (percentage >= 40 && percentage <= 50) {
         alert('you got D Congrants')
