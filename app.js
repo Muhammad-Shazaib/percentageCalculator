@@ -22,11 +22,15 @@ function calculatePercentage() {
 
     } else if (percentage >= 40 && percentage <= 50) {
         alert('you got D Congrants')
-        
+
     } else if (percentage > 33 && percentage <= 40) {
         alert('you got E Congrants')
 
-    } else {
+    } else if (percentage > 0 && percentage <= 33) {
         alert("You are Fail batter the next time")
     }
+    else {
+        alert('Invalid Input')
+    }
+
 } 
